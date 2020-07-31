@@ -6,17 +6,11 @@ const socketIO = require("socket.io");
 const cors = require("cors");
 const server = express();
 
-server.use(
-  cors({
-    origin: `http://localhost:3001`,
-    credentials: true,
-  })
-);
-
+server.use(cors());
 
 server.use(express.json());
 
-server.use(express.static(path.join(__dirname+"./_front-end")));
+server.use(express.static(path.join(__dirname, "./_front-end")));
 
 server.use("/api/auth", authController);
 server.use("/api/vacations", vacationController);
