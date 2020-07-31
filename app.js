@@ -16,7 +16,7 @@ server.use(
 
 server.use(express.json());
 
-server.use(express.static(path.join(__dirname, "./_front-end")));
+server.use(express.static(path.join(__dirname+"./_front-end")));
 
 server.use("/api/auth", authController);
 server.use("/api/vacations", vacationController);
