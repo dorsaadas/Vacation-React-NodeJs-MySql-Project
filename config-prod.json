@@ -1,0 +1,16 @@
+{
+    "isProduction":true,
+    "isDevelopment":false,
+    "mysql": {
+        "host": "eu-cdbr-west-03.cleardb.net",
+        "user": "bd99991da5a024",
+        "password": "5444597b",
+        "database": "heroku_5da0cff7769efb0"
+    },
+    "jwt":{
+        "secretKey":"WeGotSecret"
+    }
+
+}
+
+

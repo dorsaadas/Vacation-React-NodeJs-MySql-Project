@@ -1,0 +1,14 @@
+{
+    "isProduction":false,
+    "isDevelopment":true,
+    "mysql": {
+        "host": "localhost",
+        "user": "dorsaadaproject",
+        "password": "SaadaProject",
+        "database": "favoriteVacation"
+    },
+    "jwt":{
+        "secretKey":"WeGotSecret"
+    }
+
+}

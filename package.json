@@ -1,0 +1,20 @@
+{
+  "name": "dor-saada-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^2.0.0-rc.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.2.0"
+  }
+}
